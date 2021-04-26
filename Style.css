@@ -1,0 +1,89 @@
+body {
+  background: rgb(116, 196, 223);
+}
+
+  .skyblue {
+    background: rgb(38, 77, 90);
+  }
+
+  .box{
+    padding: 10px;
+    background: rgb(247, 239, 239);
+    margin-top:50px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    align-content: center;
+  }
+
+  .navbar {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 25px;
+    background: rgb(74, 99, 128);
+  }
+
+  .navbar li {
+    display: d-block;
+    padding: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    cursor: crosshair;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+
+  .c-d{color: white;
+    font-size: 30px;
+  }
+
+  .latitude {
+    color: purple;
+    font-family: helevetica;
+    font-size: 48px;
+    background-color: rgb(25, 104, 155);
+    border: 2px solid rgb(22, 99, 160);
+      padding: 16px;
+  }
+
+  @media (max-width: 600px) {
+    .navbar li {
+      padding: 12px;
+    }
+    .box {
+      margin-left: 24px;
+      margin-right: 24px;
+    }
+    .navbar ul {
+      visibility: hidden;
+    }
+    .nav-select {
+      visibility: visible;
+    }
+  }
+
+  .col-1 {width: 8%;}
+  .col-2 {width: 17%;}
+  .col-3 {width: 24%;}
+  .col-4 {width: 32%;}
+  .col-5 {width: 40%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 60%;}
+  .col-8 {width: 65%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 82%;}
+  .col-11 {width: 92%;}
+  .col-12 {width: 100%;}
+
+  @media only screen and (max-width: 780px) {
+
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
